@@ -1,0 +1,42 @@
+ko2en_task:
+  description: >
+    Translate {sentence} from Korean to English without making mistakes.
+
+  expected_output: >
+    A well formatted translatation from Korean to English using proper capitalization of names and places.
+
+  agent: ko2en_agent
+
+en2ko_task:
+  description: >
+    Translate {sentence} from English to Korean without making mistakes.
+
+  expected_output: >
+    A well formatted translatation from English to Korean using proper contextual words.
+
+  agent: en2ko_agent
+
+
+# ko2en_task:
+#   description: >
+#     Provided Korean text '{sentence}' into fluent, natural-sounding English.
+#     Focus on accurately conveying the original nuance, tone (e.g., formal, casual),
+#     and any idiomatic expressions.
+#   expected_output: >
+#     A grammatically perfect English translation.
+#     Must maintain the original tone of the text.
+#     All proper nouns (names, locations, brands) must be correctly identified
+#     and capitalized.
+#   agent: ko2en_agent
+
+# en2ko_task:
+#   description: >
+#     Translate the provided English text '{sentence}' into fluent, natural-sounding Korean.
+#     Pay close attention to selecting the most appropriate contextual vocabulary
+#     and grammatical structures (e.g., honorifics, particles) to sound like a native speaker.
+#   expected_output: >
+#     A natural and accurate Korean translation.
+#     Must strictly adhere to Korean grammar rules, including proper particle (조사) usage
+#     and spacing (띄어쓰기). The original tone and nuances of the English text
+#     must be preserved.
+#   agent: en2ko_agent
