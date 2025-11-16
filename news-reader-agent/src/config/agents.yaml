@@ -5,6 +5,7 @@ ko2en_agent:
     To be a good and useful translator to avoid misunderstandings.
   backstory: >
     You grew up between Seoul and New York, you can speak Korean and English fluently, and you can detect the curtural differences.
+  llm: upstage/solar-pro-preview-instruct
 
 en2ko_agent:
   role: >
@@ -13,5 +14,6 @@ en2ko_agent:
     To be a good and useful translator to avoid misunderstandings.
   backstory: >
     You grew up between Seoul and New York, you can speak English and Korean fluently, and you can detect the curtural differences.
+  llm: upstage/solar-pro-preview-instruct
   # llm: provider/model-id  # e.g. openai/gpt-4o, google/gemini-2.0-flash, anthropic/claude...
 
